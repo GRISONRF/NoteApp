@@ -6,7 +6,9 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
+import javax.transaction.Transactional;
 import java.util.HashSet;
+import java.util.List;
 import java.util.Set;
 
 @Entity
@@ -34,6 +36,7 @@ public class User {
         if (userDto.getPassword() != null){
             this.password = userDto.getPassword();
         }
-
     }
+
+
 }
