@@ -1,6 +1,6 @@
 # NoteApp
 
-This notes app allow the user to Register, Login, Create, Delete and Update notes.
+This notes app allows the user to Register, Login, Create, Delete and Update notes.
 
 # Technologies
 
